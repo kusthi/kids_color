@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  height: 100vh;
+  padding-top: 3rem;
+  color: #fbfcf8;
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.react-logo-decor {
+  width: 35px;
+  height: 30px;
+}
+
+.color-picker-container {
+  margin-top: 3rem;
+}
+
+.color-picker-container label {
+  padding-right: 10px;
+}
+
+.color-picker-container select {
+  padding: 10px 1rem;
+  border-radius: 7px;
+}
+
+.decor-btn-input {
+  border-radius: 5px;
+  padding: 0px 10px;
+  background-color: #fbfcf8;
+  text-decoration: none;
+}
+
+.docor-border {
+  border: 0.5px #8b8680 solid;
+}
+
+.btn-decor {
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 12.5px;
+  padding-bottom: 12.5px;
+  border-radius: 7px;
+  border: none;
+  font-weight: bolder;
+}
+
+.decor-black-btn {
+  background-color: #000;
+}
+
+.decor-white-btn {
+  background-color: #fbfcf8;
+}
+
+.add-color-btn-container {
+  margin: 3rem 3rem 0 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.add-color-btn-container input {
+  margin-right: 1.5rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 25%;
+}
+
+.add-color-btn-container input:last-of-type {
+  width: 20%;
+}
+
+.remove-color-container * {
+  margin-right: 1.25rem;
+}
